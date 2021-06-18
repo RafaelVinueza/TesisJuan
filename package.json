@@ -1,0 +1,32 @@
+{
+  "name": "servidor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dot-object": "1.7.1",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.2",
+    "express-validation": "1.0.2",
+    "ga-tsp": "2.0.1",
+    "joi": "14.3.1",
+    "kmeans-same-size": "1.0.1",
+    "moment": "2.24.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "rxjs": "6.4.0"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "lodash": "4.17.11",
+    "mocha": "6.0.2",
+    "prettier": "1.15.3",
+    "sinon": "7.3.1"
+  }
+}
